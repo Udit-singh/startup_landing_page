@@ -273,3 +273,63 @@ h1:nth-child(3)
 .controll-left img {
   transform: translate(-50%, -50%) scaleX(-1);
 }
+
+/*---------- FEATURES ---------*/
+
+.section-title {
+  margin-top: 600px;
+
+}
+
+.features .feature-cards {
+  margin: 0 2rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  margin-top: 60px;
+  margin-bottom: 50px;
+
+}
+
+.feature-cards .card-box {
+  max-width: 17rem;
+  height: auto;
+  margin: 0 1rem;
+  padding: 2rem 2rem;
+  background: linear-gradient(118.74deg, #c31432 0%, #240B36 99.98%, #8f94fb 99.99%, #240B36 100%);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.feature-cards .card-box:hover {
+  transform: translateY(-1rem) scale(1.05);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.feature-cards .card-box ion-icon {
+  font-size: 7rem;
+  color: #15244e;
+  margin-bottom: 1rem;
+}
+
+.feature-cards .card-box .card-title {
+  font-size: 1.3rem;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+.feature-cards .card-box .card-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
